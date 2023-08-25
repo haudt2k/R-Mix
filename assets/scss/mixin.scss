@@ -1,0 +1,14 @@
+@mixin responsive-vw-pc(){
+    $min: $breakpoint-sp + .98;
+    $max: $breakpoint-pc - .02;
+    @media only screen and (min-width: $min ) and (max-width: $max) {
+      @content;
+    }
+}
+
+@mixin responsive-px-sp(){
+  $max: $breakpoint-sp + .98;
+  @media only screen and (max-width: $max) {
+    @content;
+  }
+}
