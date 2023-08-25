@@ -15,21 +15,23 @@
         align-items: center;
         @include responsive-px-sp() {
             flex-direction: column;
-            position: absolute;
+            position: fixed;
             right: 0;
             top: 10%;
             width: 350px;
             z-index: 12;
+            transform: translateX(100%);
             transition: all 0.25s;
             opacity: 0;
         }
         @include responsive-vw-pc() {
             flex-direction: column;
-            position: absolute;
+            position: fixed;
             right: 0;
             top: 15%;
             width: 100%;
             z-index: 12;
+            transform: translateX(0%);
             transition: all 0.25s;
             opacity: 0;
         }
