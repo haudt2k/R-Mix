@@ -37,7 +37,7 @@ ul {
     max-width: 750px;
   }
   @include responsive-vw-pc() {
-    max-width: 950px;
+    margin: 0 15px;
   }
 
 }

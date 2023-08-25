@@ -35,7 +35,7 @@ ul {
       max-width: 750px; } }
   @media only screen and (min-width: 750.98px) and (max-width: 1349.98px) {
     .container {
-      max-width: 950px; } }
+      margin: 0 15px; } }
 
 @media only screen and (max-width: 750.98px) {
   section {
@@ -103,7 +103,7 @@ body {
         top: 15%;
         width: 100%;
         z-index: 12;
-        transform: translateX(0%);
+        transform: translateX(100%);
         transition: all 0.25s;
         opacity: 0; } }
     .header .menu-item {
