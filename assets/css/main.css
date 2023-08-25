@@ -92,7 +92,6 @@ body {
         top: 10%;
         width: 350px;
         z-index: 12;
-        transform: translateX(100%);
         transition: all 0.25s;
         opacity: 0; } }
     @media only screen and (min-width: 750.98px) and (max-width: 1349.98px) {
@@ -100,10 +99,9 @@ body {
         flex-direction: column;
         position: absolute;
         right: 0;
-        top: 10%;
+        top: 15%;
         width: 100%;
         z-index: 12;
-        transform: translateX(100%);
         transition: all 0.25s;
         opacity: 0; } }
     .header .menu-item {
